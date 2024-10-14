@@ -13,23 +13,23 @@
 ## Usage
 
 ```bash
-$ java Prettifier.java <input_path> <output_path> <airport_lookup_path>
+$ java -jar build\libs\Prettifier.java <input_path> <output_path> <airport_lookup_path>
 ```
 ### Exaplle
 ```bash
-$ java Prettifier.java ./input.txt ./output.txt ./airports_lookup.csv
+$ java -jar build\libs\Prettifier.java ./input.txt ./output.txt ./airports_lookup.csv
 ```
 ## Help
 ### input
 ```bash
-$ java Prettifier.java -h 
+$ java -jar build\libs\Prettifier.java -h 
 or
-$ java Prettifier.java -help
+$ java -jar build\libs\Prettifier.java -help
 ```
 ### output
 ```bash
 itinerary usage:
-$ java Prettifier.java <input_path> <output_path> <airport_lookup_path>
+$ java -jar build\libs\Prettifier.java <input_path> <output_path> <airport_lookup_path>
 ```
 
 ## Input Format
